@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Paint 256</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+	<style>
+		.slide {
+			font-size: 35px;
+			padding-top: 60px;
+		}
+		.without-paddings {
+			padding: 0;
+		}
+		pre {
+			font-size: 28px;
+		}
+	</style>
+</head>
+<body class="shower list">
+
+	<header class="caption">
+		<h1>Paint 256</h1>
+		<p>Самохина Вероника</p>
+	</header>
+
+	<section class="slide" id="cover">
+		<img src="pictures/pixel-end.jpg">
+
+		<style>
+			#cover img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 100%;
+				z-index: 1;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>С чего все началось?</h2>
+		<img class="next" src="pictures/erofeeva.png" />
+		<img class="next" src="pictures/lukanin.png" />
+
+		<img class="next" src="pictures/anyIdeas.gif">
+	</section>
+
+	<section class="slide without-paddings with-video">
+		<iframe	src="https://www.youtube.com/embed/XnRCZK3KjUY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		<style>
+			.with-video iframe {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<h2>Участники</h2>
+		<img src="pictures/authors.png" style="width: 100%">
+	</section>
+
+	<section class="slide">
+		<img src="pictures/firstDesign.jpg" style="width: 100%">
+	</section>
+
+	<section class="slide">
+		<h2>Первые шаги</h2>
+		<img src="pictures/firstSteps_1.png">
+		<img src="pictures/firstSteps_2.png">
+	</section>
+
+	<section class="slide">
+		<img src="pictures/firstInterface.png" style="width: 100%">
+	</section>
+
+	<section class="slide">
+		<img src="pictures/secondDesign.png" style="width: 100%; margin-top: 55px">
+	</section>
+
+	<section class="slide">
+		<img src="pictures/design.png" style="width: 100%; margin-top: 55px">
+	</section>
+
+	<section class="slide">
+		<img src="pictures/interface.png" style="width: 100%; margin-top: 55px">
+	</section>
+
+	<section class="slide">
+		<h2>Проблема в Edge</h2>
+		<img src="pictures/edge.png" style="width: 80%">
+	</section>
+
+	<section class="slide">
+		<div class="double">
+			<div>
+				<h2>Как у Реддита?</h2>
+				<ul>
+					<li>поле 1000x1000 точек</li>
+					<li>16 цветов в палитре</li>
+					<li>3 дня (72 часа)</li>
+					<li>таймаут 5 минут</li>
+					<li>до 100 000 человек в один момент времени</li>
+				</ul>
+			</div>
+			<div class="next">
+				<h2>Как было у нас?</h2>
+				<ul>
+					<li>поле 256x256 точек</li>
+					<li>23 цвета в палитре</li>
+					<li>4 дня (100 часов)</li>
+					<li>таймаут 32 секунды</li>
+					<li>до 1629 человек в один момент времени</li>
+				</ul>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="slide">
+		<a href="https://youtu.be/A8JmW8YCToU">Что получилось</a>
+	</section>
+
+	<div class="progress"></div>
+
+	<script src="node_modules/shower-core/shower.min.js"></script>
+
+</body>
+</html>
